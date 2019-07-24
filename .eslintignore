@@ -1,0 +1,9 @@
+node_modules/**
+public/**
+build/**
+blueprints/**/files/**
+coverage/**
+node_modules/**
+dist/**
+src/index.html
+
