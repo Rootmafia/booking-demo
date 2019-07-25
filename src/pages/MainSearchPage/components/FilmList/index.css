@@ -1,4 +1,4 @@
-.film_list {
+.film-list {
   background: white;
   width: 800px;
   margin: 40px auto;
@@ -12,12 +12,12 @@
   justify-content: right;
 }
 
-.film_list hr {
+.film-list hr {
   margin: 10px 30px;
   border-color: #0e74ff;
 }
 
-.film_list_container {
+.film-list_container {
   padding: 20px;
   display: flex;
   flex-wrap: wrap;

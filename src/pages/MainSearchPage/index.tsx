@@ -4,7 +4,6 @@ import { CloudBackground } from './components/CloudBackground';
 import SearchBlock from './components/SearchBlock';
 import { FilmList } from './components/FilmList';
 import * as helpers from './helpers';
-import './index.css';
 
 export default function MainSearchPage() {
   const [films, setFilm] = useState([]);

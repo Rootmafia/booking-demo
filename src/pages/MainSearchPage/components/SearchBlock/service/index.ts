@@ -1,11 +1,6 @@
-export interface SearchType {
-  Title: string;
-  City: string;
-  Type: string;
-  Poster: string;
-}
+import { SearchResult } from '../../../../../types';
 
-export const fetchSearchMovies = async (search: string): Promise<SearchType[] | { message: string }[]> => {
+export const fetchSearchMovies = async (search: string): Promise<SearchResult[]> => {
   if (!search) {
     return [];
   }
