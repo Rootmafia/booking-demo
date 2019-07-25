@@ -1,0 +1,25 @@
+.film_list {
+  background: white;
+  width: 800px;
+  margin: 40px auto;
+  z-index: 3;
+  border-radius: 4px;
+}
+
+.film_list-header {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+
+.film_list hr {
+  margin: 10px 30px;
+  border-color: #0e74ff;
+}
+
+.film_list_container {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

@@ -1,0 +1,12 @@
+.search_block {
+  margin: 0 auto;
+  position: relative;
+  margin-top: 200px;
+  z-index: 4;
+}
+
+.search_block_title {
+  position: absolute;
+  color: white;
+  top: -30px;
+}

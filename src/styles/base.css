@@ -1,0 +1,26 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+  color: #fff;
+  background-color: #fd940a;
+  background-image: radial-gradient(circle, #f9a72b 0%, #fa9026 70%, #fb6c1f 100%);
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

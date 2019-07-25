@@ -1,0 +1,20 @@
+.shuffle_btn {
+  font-weight: bold;
+  text-decoration: none;
+  color: #0e74ff;
+  display: flex;
+  margin: 10px 30px 0 auto;
+}
+
+.shuffle_btn:active {
+  color: #2196f3;
+}
+
+.shuffle_btn img {
+  height: 25px;
+  width: 25px;
+}
+
+.shuffle_btn div {
+  margin: auto;
+}
